@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <title>Principal | StillGrainy</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cristina Maroto, Adrián Román-Toledo">
+
+    <link rel="icon" href="../img/fondo.png">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index2.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header id="cabecera">
+            <a href="./index.html"><img src="./img/fondo1.png" class="logo" height="30px" width="30px"></a>
+            <h1 class="tituloPag">StillGrainy</h1>
+
+        </header>
+
+
+        <main id="principal">
+
+        <fieldset class="formulario">
+            <legend class="subtitulo"><h3>Formulario de inicio</h3></legend>
+            <form action="javascript:formulario();" method="post">
+            
+                <input class="control" type="text" name="nombre" id="nombre" placeholder="Introduce nombre de usuario:"><br>
+            
+                <input class="control" type="text" name="correo" id="correo" placeholder="Introduce tu correo eléctronico:"><br>
+                
+
+                <input class="control" type="password" name="clave" id="clave" placeholder="Introduce tu clave:" ><br>
+                
+                <input class="control" type="text" name="telf" id="telf" placeholder="Teléfono:"><br>
+                                
+                <p>Estoy de acuerdo con los <a href="" id="terminos">Términos y condiciones</a><input type="checkbox" checked class="casilla"/></p>
+
+                <input class="botones" type="submit" value="Aceptar">
+                <input class="botones" type="reset" value="Reinicio">
+                <a href="./html/inicio.html"><input type="button" value="Entrada" class="botones"></a>
+                <input type="button" value="Inicio">
+                
+                <script>
+                    terminos.addEventListener("click", () => enlace());
+
+                    //Funcion para mostrar los terminos 
+                    function enlace() {
+                        alert ("Se bueno, no des problemas y portate bien");
+}
+                </script>
+
+            </form> 
+        </fieldset>
+        
+            
+
+
+        </main>
+
+        <div id="letter">
+
+        </div>
+
+        <footer>
+            <small>&copy;2022 StillGrainy</small><br>
+            <small class="enlace"><i><a href="https://site.educa.madrid.org/ies.villablanca.madrid/" target="_blank">I.E.S.
+            Villablanca</a></i></small>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
