@@ -17,3 +17,24 @@ nav {
     height: 80px;
     position: relative;
 }
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1000px;
+    z-index: 100;
+}
+
+.container-logo {
+    margin-left: 20px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.container-logo {
+    color: lightblue;
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
